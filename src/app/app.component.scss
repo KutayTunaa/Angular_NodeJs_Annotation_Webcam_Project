@@ -1,0 +1,75 @@
+video {
+  max-width: 100%;
+}
+
+button {
+  margin-top: 13px;
+}
+
+.video-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start; 
+  align-items: center;
+  padding-left: 20px;
+}
+
+.video-container video {
+  max-width: 100%; 
+  max-height: 100vh; 
+}
+
+.canvas-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+  padding-right: 20px; 
+}
+
+.canvas-container canvas {
+  max-width: 100%; 
+  max-height: 100vh; 
+}
+
+
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('../assets/ccc.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.buttons-container {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px; 
+  padding: 20px; 
+  background-color: rgba(255, 255, 255, 0.224); 
+  border-radius: 10px;
+}
+
+.action-button {
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  border: 1px solid #ccc;
+  background-color: antiquewhite; 
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: medium;
+  cursor: pointer;
+  margin-bottom: 10px; 
+}
+
+.action-button {
+  cursor: pointer;
+}
+

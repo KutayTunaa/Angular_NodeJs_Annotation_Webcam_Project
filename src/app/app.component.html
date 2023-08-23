@@ -1,0 +1,18 @@
+<div class="page-container">
+  <div class="video-container">
+    <video #videoElement autoplay></video>
+  </div>
+  <div class="buttons-container">
+
+    <button class="action-button" (click)="capturePhoto()">Capture Photo</button>
+    <button class="action-button" (click)="removeCapturedCanvas()">Remove Captured Photo</button>
+    <button class="action-button" (click)="sendToServer()">Save to server</button>
+    <button class="action-button" (click)="downloadCanvas()">Download Canvas</button>
+    <input class="action-button" #textInput type="text" placeholder="Metin girin">
+    <button class="action-button" (click)="addTextToCanvas()">Add Text</button>
+  </div>
+  <div class="canvas-container">
+    <canvas #canvasElement (mousedown)="handleMouseDown($event)" (mousemove)="handleMouseMove($event)"
+      (mouseup)="handleMouseUp()" (mouseleave)="handleMouseUp()"></canvas>
+  </div>
+</div>
