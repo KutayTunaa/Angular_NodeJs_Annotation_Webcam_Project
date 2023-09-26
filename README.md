@@ -1,4 +1,3 @@
-![image-5](https://github.com/KutayTunaa/Angular_NodeJs_Annotation_Webcam_Project/assets/113691691/24fd98e3-fd4c-4733-9901-5356f74dab4c)
 # Forms Creation Project
 
 This project was generated with Angular CLI version 16.1.7.
